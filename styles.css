@@ -1,7 +1,7 @@
 :root {
-  --primary: #b91c1c; /* Deep Red */
+  --primary: #6EC1E4; /* Deep Red */
   --primary-hover: #991b1b;
-  --dark: #1c1917; /* Stone 900 */
+  --dark: #4FA7CD; /* Stone 900 */
   --light: #fafaf9; /* Stone 50 */
   --stone: #f5f5f4; /* Stone 100 */
   --white: #ffffff;
@@ -652,3 +652,4 @@ main { padding-top: 70px; }
   .sticky-cta.visible { display: block; }
   body { padding-bottom: 86px; }
 }
+
