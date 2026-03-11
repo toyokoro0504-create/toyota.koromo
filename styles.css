@@ -654,5 +654,8 @@ main { padding-top: 70px; }
   body { padding-bottom: 86px; }
 }
 
+.hero-title span{
+white-space:nowrap;
+}
 
 
