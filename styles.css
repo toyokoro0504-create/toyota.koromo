@@ -1,13 +1,14 @@
 :root {
-  --primary: #b0e0e6; /* Deep Red */
-  --primary-hover: #991b1b;
-  --dark: #4FA7CD; /* Stone 900 */
-  --light: #fafaf9; /* Stone 50 */
-  --stone: #f5f5f4; /* Stone 100 */
+  --primary: #7ec8e3;
+  --primary-hover: #5fb7d8;
+  --dark: #1f2d3d;
+  --light: #f4fbfe;
+  --stone: #eaf6fb;
   --white: #ffffff;
-  --text: #44403c; /* Stone 700 */
-  --text-muted: #78716c; /* Stone 500 */
-  --border: #e7e5e4; /* Stone 200 */
+  --text: #2f3b45;
+  --text-muted: #6b7c88;
+  --border: #d7ebf3;
+  --accent: #c62828;
   --transition: all 0.3s ease;
   --container-width: 1100px;
 }
@@ -652,5 +653,6 @@ main { padding-top: 70px; }
   .sticky-cta.visible { display: block; }
   body { padding-bottom: 86px; }
 }
+
 
 
