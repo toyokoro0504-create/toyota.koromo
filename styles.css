@@ -1,5 +1,5 @@
 :root {
-  --primary: #6EC1E4; /* Deep Red */
+  --primary: #b0e0e6; /* Deep Red */
   --primary-hover: #991b1b;
   --dark: #4FA7CD; /* Stone 900 */
   --light: #fafaf9; /* Stone 50 */
@@ -652,4 +652,5 @@ main { padding-top: 70px; }
   .sticky-cta.visible { display: block; }
   body { padding-bottom: 86px; }
 }
+
 
