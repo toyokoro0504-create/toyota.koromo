@@ -285,10 +285,9 @@ main { padding-top: 70px; }
   border-bottom: 2px solid var(--primary);
 }
 
-.hero-title {
-  font-size: 4rem;
-  font-weight: 900;
-  margin-bottom: 30px;
+.hero-title{
+font-family: 'Zen Kaku Gothic New', sans-serif;
+font-weight:700;
 }
 
 .hero-lead {
@@ -657,5 +656,6 @@ main { padding-top: 70px; }
 .hero-title span{
 white-space:nowrap;
 }
+
 
 
