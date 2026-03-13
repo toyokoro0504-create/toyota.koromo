@@ -741,7 +741,39 @@ font-size:1.3rem;
 
 }
 
+.instagram-left{
+flex:1;
+}
 
+.instagram-right{
+flex:1;
+display:flex;
+justify-content:center;
+}
 
+.instagram-right img{
+width:100%;
+max-width:420px;
+border-radius:18px;
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+object-fit:cover;
+}
+
+@media (max-width:768px){
+
+.instagram-card{
+flex-direction:column;
+text-align:center;
+}
+
+.instagram-right{
+margin-top:20px;
+}
+
+.instagram-right img{
+max-width:100%;
+}
+
+}
 
 
