@@ -23,7 +23,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   color: var(--text);
   background-color: var(--light);
   line-height: 1.6;
@@ -671,6 +671,7 @@ font-size:36px;
 .hero-title span{
 white-space:nowrap;
 }
+
 
 
 
