@@ -817,6 +817,15 @@ white-space:nowrap;
   }
 }
 
+button,
+input[type="submit"]{
+  padding:14px 28px;
+  font-size:16px;
+  border-radius:10px;
+  background:#2c3e50;
+  color:#fff;
+  border:none;
+}
 
 
 
