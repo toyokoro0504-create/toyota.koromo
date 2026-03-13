@@ -827,5 +827,59 @@ input[type="submit"]{
   border:none;
 }
 
+.mobile-bottom-bar{
+display:none;
+}
 
+@media (max-width:768px){
 
+.mobile-bottom-bar{
+position:fixed;
+bottom:-100px;
+left:0;
+width:100%;
+display:flex;
+z-index:9999;
+transition:bottom 0.4s ease;
+box-shadow:0 -4px 15px rgba(0,0,0,0.15);
+}
+
+.mobile-bottom-bar.show{
+bottom:0;
+}
+
+.mobile-bottom-btn{
+flex:1;
+text-align:center;
+padding:16px;
+font-weight:700;
+text-decoration:none;
+color:#fff;
+font-size:15px;
+}
+
+.mobile-bottom-btn.reserve{
+background:#ff8a00;
+}
+
+.mobile-bottom-btn.map{
+background:#2c3e50;
+}
+
+body{
+padding-bottom:90px;
+}
+
+}
+
+const mobileBar = document.getElementById("mobileBottomBar");
+
+window.addEventListener("scroll", function(){
+
+if(window.scrollY > 300){
+mobileBar.classList.add("show");
+}else{
+mobileBar.classList.remove("show");
+}
+
+});
