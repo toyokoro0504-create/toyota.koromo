@@ -902,3 +902,192 @@ font-size:16px;
 color:#555;
 line-height:1.7;
 }
+
+/* Base Reset */
+@media (max-width: 768px) {
+
+  /* 全体の余白を詰める */
+  .section {
+    padding: 44px 0;
+  }
+
+  .container {
+    width: 92%;
+  }
+
+  /* ヘッダー */
+  .main-header {
+    height: 78px;
+  }
+
+  .header-inner {
+    padding: 8px 0;
+  }
+
+  .logo-main {
+    font-size: 0.95rem;
+    line-height: 1.2;
+  }
+
+  .logo-sub {
+    font-size: 0.55rem;
+  }
+
+  main {
+    padding-top: 78px;
+  }
+
+  /* ヒーローを縦長にしすぎない */
+  .hero {
+    min-height: auto;
+    padding: 40px 0 28px;
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 20px 0 10px;
+  }
+
+  .hero-label {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+  }
+
+  .hero-title {
+    font-size: 2.3rem;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    margin-bottom: 18px;
+  }
+
+  .hero-title span {
+    font-size: 2.4rem;
+    line-height: 1.25;
+  }
+
+  .hero-lead {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 22px;
+  }
+
+  /* ボタンを少しコンパクトに */
+  .hero-actions {
+    gap: 12px;
+    margin-top: 14px;
+  }
+
+  .btn-lg {
+    max-width: 100%;
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 1rem;
+  }
+
+  /* セクション見出し */
+  .section-header {
+    margin-bottom: 28px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+
+  .section-subtitle {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  /* 5つの力のカードを詰める */
+  .benefits-grid {
+    gap: 14px;
+  }
+
+  .benefit-card {
+    padding: 24px 18px;
+    border-radius: 16px;
+  }
+
+  .benefit-icon {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 14px;
+    font-size: 1.3rem;
+  }
+
+  .benefit-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+
+  .benefit-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  /* ギャラリーを2列で見やすく */
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .gallery-item img {
+    height: 150px;
+  }
+
+  /* Instagram */
+  .instagram-card {
+    padding: 24px 18px;
+    gap: 18px;
+  }
+
+  .instagram-account {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .instagram-text {
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  /* FAQ */
+  .faq-question {
+    padding: 18px 18px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .faq-answer {
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  /* お問い合わせ */
+  .contact-box {
+    border-radius: 24px;
+  }
+
+  .contact-text,
+  .contact-form-placeholder {
+    padding: 28px 18px;
+  }
+
+  .contact-text h3 {
+    font-size: 1.7rem;
+  }
+
+  /* 下固定CTAの高さを少し抑える */
+  .mobile-bottom-btn,
+  .mobile-fixed-cta-button {
+    padding: 14px 10px;
+    font-size: 0.95rem;
+  }
+
+  body {
+    padding-bottom: 78px;
+  }
+}
