@@ -883,3 +883,11 @@ mobileBar.classList.remove("show");
 }
 
 });
+
+.faq-item{
+color:#333;
+}
+
+#faq .section-title{
+color:#1f2d3d;
+}
