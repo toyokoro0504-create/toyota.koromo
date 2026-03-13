@@ -691,83 +691,54 @@ font-size:36px;
 white-space:nowrap;
 }
 
-.instagram-box {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  padding: 50px;
-  background: #ffffff;
-  border-radius: 24px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  margin-top: 30px;
+.instagram-card{
+display:flex;
+align-items:center;
+gap:40px;
+margin-top:30px;
+padding:40px;
+background:#ffffff;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
-.instagram-icon-wrap {
-  flex-shrink: 0;
+.instagram-icon img{
+width:70px;
+height:70px;
 }
 
-.instagram-icon-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-  transition: transform 0.3s ease;
+.instagram-label{
+font-size:0.9rem;
+color:#6b7c88;
+font-weight:600;
+margin-bottom:6px;
 }
 
-.instagram-icon-link:hover {
-  transform: translateY(-3px) scale(1.03);
+.instagram-account{
+font-size:1.6rem;
+font-weight:800;
+margin-bottom:12px;
 }
 
-.instagram-icon {
-  width: 46px;
-  height: 46px;
-  fill: #ffffff;
+.instagram-text{
+line-height:1.8;
+margin-bottom:18px;
+color:#2f3b45;
 }
 
-.instagram-content {
-  flex: 1;
+@media (max-width:768px){
+
+.instagram-card{
+flex-direction:column;
+text-align:center;
+padding:30px 20px;
+gap:20px;
 }
 
-.instagram-label {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #6b7c88;
-  margin-bottom: 8px;
+.instagram-account{
+font-size:1.3rem;
 }
 
-.instagram-account {
-  font-size: 2rem;
-  font-weight: 800;
-  color: #1f2d3d;
-  margin-bottom: 16px;
-}
-
-.instagram-text {
-  font-size: 1rem;
-  line-height: 1.9;
-  color: #2f3b45;
-  margin-bottom: 24px;
-}
-
-@media (max-width: 768px) {
-  .instagram-box {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 20px;
-    gap: 24px;
-  }
-
-  .instagram-account {
-    font-size: 1.5rem;
-  }
-
-  .instagram-text {
-    font-size: 0.95rem;
-  }
 }
 
 
