@@ -1091,3 +1091,110 @@ line-height:1.7;
     padding-bottom: 78px;
   }
 }
+/* =========================
+   Growth Stories
+========================= */
+
+.growth-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #79b9d0;
+  margin-bottom: 10px;
+}
+
+.growth-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+}
+
+.growth-card {
+  background: #ffffff;
+  padding: 34px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.growth-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.growth-number {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #8a989f;
+}
+
+.growth-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #e7f6fb;
+  color: #4d9bb7;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.growth-card h4 {
+  font-size: 1.45rem;
+  line-height: 1.55;
+  margin-bottom: 20px;
+  color: #263640;
+}
+
+.growth-card p {
+  font-size: 0.98rem;
+  line-height: 1.9;
+  margin-bottom: 14px;
+  color: #58656c;
+}
+
+.growth-message {
+  margin-top: 22px;
+  padding-left: 16px;
+  border-left: 4px solid #79c5df;
+  font-weight: 700;
+  color: #263640 !important;
+}
+
+.growth-footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.9;
+  color: #34454e;
+}
+
+
+/* スマホ */
+@media (max-width: 768px) {
+
+  .growth-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .growth-card {
+    padding: 26px 20px;
+  }
+
+  .growth-card h4 {
+    font-size: 1.25rem;
+  }
+
+  .growth-card p {
+    font-size: 0.94rem;
+  }
+
+  .growth-footer {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+}
+
