@@ -1245,3 +1245,89 @@ line-height:1.7;
 .growth-more-btn:hover span {
   transform: translateX(4px);
 }
+
+/* =========================
+   Growth Stories Page
+========================= */
+
+.growth-page-hero {
+  padding: 150px 0 70px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.growth-page-title {
+  font-size: 3rem;
+  line-height: 1.3;
+  color: #1f3448;
+  margin: 10px 0 20px;
+  font-weight: 800;
+}
+
+.growth-page-lead {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: #697983;
+}
+
+.growth-page-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+.growth-page-grid .growth-card {
+  min-height: 100%;
+}
+
+.growth-page-grid .growth-card h2 {
+  font-size: 1.55rem;
+  line-height: 1.55;
+  margin-bottom: 20px;
+  color: #263640;
+}
+
+.growth-page-message {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.15rem;
+  line-height: 2;
+  font-weight: 700;
+  color: #263640;
+}
+
+.growth-back {
+  text-align: center;
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+
+  .growth-page-hero {
+    padding: 115px 20px 50px;
+  }
+
+  .growth-page-title {
+    font-size: 2rem;
+  }
+
+  .growth-page-lead {
+    font-size: 0.95rem;
+  }
+
+  .growth-page-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .growth-page-grid .growth-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .growth-page-message {
+    margin-top: 34px;
+    font-size: 1rem;
+  }
+}
