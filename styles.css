@@ -1204,3 +1204,44 @@ line-height:1.7;
   font-size: 0.9rem;
   color: #7b8b93;
 }
+
+/* 成長記録 もっと見る */
+.growth-more-wrap {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.growth-more-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  padding: 14px 28px;
+
+  color: #1f3448;
+  background: #ffffff;
+
+  border: 1px solid #79c8e8;
+  border-radius: 50px;
+
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.25s ease;
+}
+
+.growth-more-btn span {
+  font-size: 18px;
+  transition: 0.25s ease;
+}
+
+.growth-more-btn:hover {
+  background: #79c8e8;
+  color: #ffffff;
+}
+
+.growth-more-btn:hover span {
+  transform: translateX(4px);
+}
